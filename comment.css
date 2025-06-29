@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Pretendard';
+  /* font-weight: 45 920; */
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('./fonts/PretendardVariable.woff2') format('woff2-variations');
+}
+.giscus {
+  display:block !important;
+  margin-top:60px !important;
+  font-family: 'Pretendard' !important;
+}
+.color-text-primary {
+  display:block !important;
+  position:relative !important;
+}
+.gsc-reactions-count {
+  display:none !important;
+}
+.gsc-comments-count {
+  font-weight:700 !important;
+}
+.gsc-comments {
+  gap:unset !important;
+}
+.gsc-comment-box:not(.gsc-comment-box-is-reply) {
+  margin-top:15px !important; 
+}
+.giscus-wrapper {
+  margin-top:70px !important;
+}
+.gsc-reactions {
+  position:absolute;
+  display:block !important;
+  flex:unset !important;
+  width:30px !important;
+  height:30px !important;
+  top:2px !important;left:0 !important;
+}
+.gsc-reactions .justify-center {
+  justify-content:unset !important;
+}
+#__next .gsc-reactions .mt-2 {
+  margin-top:0 !important;
+}
+.gsc-comments-count,
+.gsc-comments-count-separator {
+  height:30px !important;
+  padding-left:35px !important;
+  padding-top:2px !important;
+  box-sizing:border-box !important;
+}

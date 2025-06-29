@@ -158,14 +158,13 @@ main {
 }
 .giscus {
   display:block;
-  font-family: 'Pretendard';
+  font-family: 'Pretendard' !important;
 }
 .color-text-primary {
-  display:block;
   position:relative;
 }
 .gsc-reactions-count {
-  display:none;
+  display:none !important;
 }
 .gsc-comments-count {
   font-weight:700;
@@ -177,15 +176,15 @@ main {
   margin-top:15px; 
 }
 .gsc-reactions {
-  position:absolute;
-  display:block;
-  flex:unset;
-  width:30px;
-  height:30px;
+  position:absolute !important;
+  display:block !important;
+  flex:unset !important;
+  width:30px !important;
+  height:30px !important;
   top:2px;left:0;
 }
 .gsc-reactions .justify-center {
-  justify-content:unset;
+  justify-content:unset !important;
 }
 #__next .gsc-reactions .mt-2 {
   margin-top:0;
@@ -634,4 +633,7 @@ input:where([type=submit]) {
 .btn-primary:active {
   background-color: var(--color-btn-primary-selected-bg);
   box-shadow: var(--color-btn-primary-selected-shadow);
+}
+#__next .border-b-0 {
+  border-bottom-width: 0 !important;
 }

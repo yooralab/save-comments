@@ -200,7 +200,6 @@ main {
   background-color:#f6f8fa;
 }
 .gsc-reactions-popover.bottom {
-  inset-inline-start: -.375rem;
   top: 2.25rem;
 }
 .gsc-comment-box-tabs {
@@ -634,3 +633,8 @@ input:where([type=submit]) {
 #__next .border-b-0 {
   border-bottom-width: 0 !important;
 }
+.gsc-reactions-popover.open.bottom:after {
+  border-bottom: 8px solid var(--color-canvas-overlay, var(--color-bg-overlay));
+  top: -14px;
+}
+
